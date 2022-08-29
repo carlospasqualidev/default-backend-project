@@ -1,14 +1,14 @@
 # Default-Backend-Project
 
-Este projeto foi desenvolvido do absoluto zero por mim , reuni todo meu conhecimento para desenvolve-lo com as melhores tecnicas e tecnologias da atualidade.
+Este projeto foi desenvolvido do absoluto zero por mim , reuni todo meu conhecimento para desenvolve-lo com as melhores técnicas e tecnologias da atualidade.
 
-## 🚀 Clonando o repositorio 🚀
+## 🚀 Clonando o repositório 🚀
 
-Apos clonar o repositorio, partiremos para algumas informacoes basicas.
+Após clonar o repositório, partiremos para algumas informações básicas.
 
 ### 📋 O Projeto 📋
 
-Os pacotes listados abaixo ja estao configurados para facilitar e agilizar o desenvolvimento.
+Os pacotes listados abaixo já estão configurados para facilitar e agilizar o desenvolvimento.
 
 #### 📦 Pacotes 📦
 
@@ -31,20 +31,20 @@ Os pacotes listados abaixo ja estao configurados para facilitar e agilizar o des
 
 ### ⚙️ Executando o projeto
 
-Qualquer configuracao que necessite interferencia do usuario acompanha o prefixo //CHANGE HERE
+Qualquer configuração que necessite interferência do usuário acompanha o prefixo //CHANGE HERE
 
 #### 🗂️ Estrutura de pastas 🗂️
 
 ```
 > Grupo
   > Tipagens
-  > Modulo
+  > Módulo
     > Controllers
-      > Sub Grupos
-        > Funcoes
+      > Subgrupos
+        > Funções
         > Rotas
   > Services
-    > Classe de servicos
+    > Classe de serviços
 ```
 
 #### 🌎 Alterando .env 🌎
