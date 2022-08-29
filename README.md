@@ -17,7 +17,7 @@ Os pacotes listados abaixo já estão configurados para facilitar e agilizar o d
 - Prettier
 - Husky
 - LintStaged
-- prettier
+- Prettier
 - Swagger
 
 #### 🖥️ Tecnologias 🖥️
