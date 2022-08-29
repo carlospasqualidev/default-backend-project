@@ -1,0 +1,53 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//USER
+model User {
+  id           String    @id @unique @default(uuid())
+  name         String
+  email        String    @unique
+  image        String
+  isBlocked    Boolean   @default(false)
+  isDeleted    Boolean   @default(false)
+  passwordHash String
+  lastAccess   DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  UserPermissions UserPermissions[]
+
+  @@map("users")
+}
+
+model UserPermissions {
+  id           String   @id @unique @default(uuid())
+  userId       String
+  permissionId String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  User       User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  Permission Permission @relation(fields: [permissionId], references: [id])
+
+  @@map("userPermissions")
+}
+
+model Permission {
+  id        String   @id @unique @default(uuid())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  Permissions UserPermissions[]
+
+  @@map("permissions")
+}
