@@ -1,5 +1,9 @@
 {
   "name": "server",
+    "author": {
+    "name": "Carlos Pasquali",
+    "email": "carlos.pasquali.dev@gmail.com"
+  }
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
