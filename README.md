@@ -1,6 +1,6 @@
 # Default-Backend-Project
 
-Este projeto foi desenvolvido do absoluto zero por mim e tem como finalidade ser um CRUD completo com todas as configurações iniciais prontas. Possibilitando a qualquer desenvolvedor dar continuidade no projeto, possui sistemas como: autenticação JWT com midlewares, capturador de erros que dispensa a necessidade de try/cath, conta com uma documentação completa utilizando swagger, arquitetura limpa e moderna, eu a utilizada comercialmente nos projetos em que trabalho, Aqui reuni todo meu conhecimento para desenvolve-lo, utilizei das melhores técnicas e tecnologias da atualidade.
+Este projeto foi desenvolvido do absoluto zero por mim e tem como finalidade ser um CRUD completo com todas as configurações iniciais prontas. Possibilitando a qualquer desenvolvedor dar continuidade no projeto, possui sistemas como: autenticação JWT com midlewares, capturador de erros que dispensa a necessidade de try/cath, conta com uma documentação completa utilizando swagger, arquitetura limpa e moderna, eu a utilizo comercialmente nos projetos em que trabalho, Aqui reuni todo meu conhecimento para desenvolve-lo, utilizei das melhores técnicas e tecnologias da atualidade.
 
 ## 🚀 Clonando o repositório 🚀
 
