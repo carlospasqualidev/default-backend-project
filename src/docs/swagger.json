@@ -203,7 +203,7 @@
                   },
                   "email": {
                     "type": "string",
-                    "default": "carlosdpasqualip@hotmail.com"
+                    "default": "carlos.pasquali.dev@gmail.com"
                   },
                   "image": {
                     "type": "string",
@@ -329,7 +329,7 @@
                   },
                   "email": {
                     "type": "string",
-                    "default": "carlosdpasqualip@hotmail.com"
+                    "default": "carlos.pasquali.dev@gmail.com"
                   },
                   "image": {
                     "type": "string",
